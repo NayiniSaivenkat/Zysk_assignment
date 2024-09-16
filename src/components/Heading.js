@@ -1,7 +1,7 @@
 import React from 'react'
 import Arrow from "../assets/arrow-right.png"
 import Play from "../assets/play-circle.png"
-import HeroImage from "../assets/Container.png"
+import Heroimage from "../assets/Container.png"
 import "./Heading.css"
 const Heading = () => {
   return (
@@ -22,7 +22,7 @@ const Heading = () => {
             <button style={{backgroundColor:"white"}}> <img src={Play} alt="play"  />   Demo</button>
             <button style={{border: "1px solid #7F56D9",color:"white",backgroundColor:"#7F56D9"}} >Sign up</button>
         </div>
-        <img src={HeroImage} alt="Hero_Image" className='hero_image'  />
+        <img src={Heroimage} alt="Hero_Image" className='hero_image'  />
         
     </div>
   )

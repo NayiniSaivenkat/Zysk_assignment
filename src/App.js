@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './sections/Header';
 import Hero_section from './sections/Hero_section';
