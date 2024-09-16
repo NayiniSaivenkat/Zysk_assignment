@@ -1,0 +1,28 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2vw;
+    margin-right: 3vw;
+}
+.features_Container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+.card{
+    height: auto;
+    width: 384px;
+    margin-bottom: 2rem;
+}
+@media (max-width:768px) {
+    .card{
+        width: 330px;
+        object-fit: cover;
+    }
+    .img1{
+        width: 330px;
+    }
+}

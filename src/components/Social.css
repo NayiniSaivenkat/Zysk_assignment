@@ -1,0 +1,36 @@
+.sample_companies{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    
+}
+.sample_companies div{
+    display: flex;
+    width: 127.5px;
+    margin: 5px;
+    
+}
+@media (max-width: 768px) {
+    .sample_companies {
+        display: grid;
+        grid-template-columns: 50% 50%; /* Two equal columns */
+        justify-items: center; /* Centers content horizontally */
+        align-items: center; /* Centers content vertically */
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .sample_companies div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensures that items inside the div are centered */
+        justify-content: center; /* Centers items vertically inside the div */
+        margin-bottom: 2rem; /* Adds spacing between items */
+    }
+}
+

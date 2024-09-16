@@ -1,0 +1,15 @@
+.actions button{
+    width: auto;
+    height: 60px;
+    padding: 16px 28px 16px 28px;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    opacity: 0px;
+    margin: 0.5rem;
+    
+    }
+    
+    .actions button:hover{
+        cursor: pointer;
+    }

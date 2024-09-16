@@ -1,0 +1,83 @@
+.heading{
+    margin-bottom: 3rem;
+}
+/* .badge_group{
+    border: 1px solid black;
+    border-radius: 3rem;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: none;
+    background-color: #F9F5FF;
+    color: #6941C6;
+    
+} */
+.badge-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; /* Space between the badge and the link */
+    font-family: Arial, sans-serif;
+    border: 1px solid #E9D7FE;
+    border-radius: 12px;
+    padding: 1px;
+  }
+  
+  .badge {
+    background-color: #f3e8ff; /* Light purple background */
+    color: #9656e7;  /* Purple text */
+    padding: 4px 8px;  /* Padding for the badge */
+    border-radius: 12px;  /* Rounded corners */
+    font-size: 14px; /* Font size */
+    font-weight: 600; /* Bold text */
+  }
+  
+  .link {
+    color: #9656e7;  /* Purple text */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px;
+    font-weight: 500; /* Medium weight for the link */
+    transition: color 0.3s ease; /* Transition for hover effect */
+  }
+  
+  .link:hover {
+    color: #6a38b6; /* Darker purple on hover */
+  }
+  
+.actions button{
+width: 122px;
+height: 60px;
+padding: 16px 28px 16px 28px;
+gap: 12px;
+border-radius: 8px;
+border: 1px solid #D0D5DD;
+opacity: 0px;
+margin: 0.5rem;
+
+}
+
+.actions button:hover{
+    cursor: pointer;
+}
+.actions img{
+    height: 10px;
+}
+.hero_image{
+/* width: 1216px; */
+width: 90vw;
+height: 560px;
+gap: 0px;
+border-radius: 12px;
+opacity: 0px;
+margin-left: 1rem;
+
+}
+@media (max-width: 768px) {
+    .hero_image{
+        width: 375px;
+height: 228px;
+
+gap: 32px;
+opacity: 0px;
+
+    }
+}
